@@ -1,0 +1,20 @@
+[
+  {
+    "number": "ABC123",
+    "owner": "John Doe",
+    "status": "Active",
+    "vehicle": "Toyota Camry",
+    "permitType": "Student",
+    "expires": "2025-12-31",
+    "tickets": 1
+  },
+  {
+    "number": "XYZ789",
+    "owner": "Jane Smith",
+    "status": "Expired",
+    "vehicle": "Honda Civic",
+    "permitType": "Visitor",
+    "expires": "2023-05-20",
+    "tickets": 4
+  }
+]
