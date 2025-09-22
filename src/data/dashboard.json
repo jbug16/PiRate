@@ -1,0 +1,203 @@
+{
+  "officers": [
+    {
+      "name": "Jenna",
+      "citations": 28,
+      "color": "bg-red-500"
+    },
+    {
+      "name": "Henry",
+      "citations": 24,
+      "color": "bg-red-400"
+    },
+    {
+      "name": "Chris",
+      "citations": 22,
+      "color": "bg-red-600"
+    },
+    {
+      "name": "Chase",
+      "citations": 19,
+      "color": "bg-red-300"
+    },
+    {
+      "name": "Valerie",
+      "citations": 17,
+      "color": "bg-red-700"
+    }
+  ],
+  "recentCitations": [
+    {
+      "id": 1,
+      "plate": "ABC123",
+      "violation": "No Permit",
+      "date": "10/30/24",
+      "time": "2:45 PM",
+      "officer": "Jenna"
+    },
+    {
+      "id": 2,
+      "plate": "XYZ789",
+      "violation": "Expired Permit",
+      "date": "10/30/24",
+      "time": "2:30 PM",
+      "officer": "Henry"
+    },
+    {
+      "id": 3,
+      "plate": "DEF456",
+      "violation": "Wrong Zone",
+      "date": "10/30/24",
+      "time": "2:15 PM",
+      "officer": "Chris"
+    },
+    {
+      "id": 4,
+      "plate": "GHI789",
+      "violation": "No Permit",
+      "date": "10/30/24",
+      "time": "1:58 PM",
+      "officer": "Chase"
+    },
+    {
+      "id": 5,
+      "plate": "JKL012",
+      "violation": "Expired Permit",
+      "date": "10/30/24",
+      "time": "1:42 PM",
+      "officer": "Valerie"
+    },
+    {
+      "id": 6,
+      "plate": "MNO345",
+      "violation": "No Permit",
+      "date": "10/30/24",
+      "time": "1:25 PM",
+      "officer": "Jenna"
+    },
+    {
+      "id": 7,
+      "plate": "PQR678",
+      "violation": "Wrong Zone",
+      "date": "10/30/24",
+      "time": "1:10 PM",
+      "officer": "Henry"
+    },
+    {
+      "id": 8,
+      "plate": "STU901",
+      "violation": "No Permit",
+      "date": "10/30/24",
+      "time": "12:55 PM",
+      "officer": "Chris"
+    }
+  ],
+  "recentAppeals": [
+    {
+      "id": 1,
+      "plate": "ABC123",
+      "violation": "No Permit",
+      "date": "10/30/24",
+      "appellant": "John Smith",
+      "amount": "$25"
+    },
+    {
+      "id": 2,
+      "plate": "XYZ789",
+      "violation": "Expired Permit",
+      "date": "10/29/24",
+      "appellant": "Sarah Johnson",
+      "amount": "$50"
+    },
+    {
+      "id": 3,
+      "plate": "DEF456",
+      "violation": "Wrong Zone",
+      "date": "10/29/24",
+      "appellant": "Mike Davis",
+      "amount": "$35"
+    },
+    {
+      "id": 4,
+      "plate": "GHI789",
+      "violation": "No Permit",
+      "date": "10/28/24",
+      "appellant": "Emily Wilson",
+      "amount": "$25"
+    },
+    {
+      "id": 5,
+      "plate": "JKL012",
+      "violation": "Expired Permit",
+      "date": "10/28/24",
+      "appellant": "David Brown",
+      "amount": "$50"
+    },
+    {
+      "id": 6,
+      "plate": "MNO345",
+      "violation": "No Permit",
+      "date": "10/27/24",
+      "appellant": "Lisa Garcia",
+      "amount": "$25"
+    },
+    {
+      "id": 7,
+      "plate": "PQR678",
+      "violation": "Wrong Zone",
+      "date": "10/27/24",
+      "appellant": "Tom Anderson",
+      "amount": "$35"
+    },
+    {
+      "id": 8,
+      "plate": "STU901",
+      "violation": "No Permit",
+      "date": "10/26/24",
+      "appellant": "Amy Taylor",
+      "amount": "$25"
+    }
+  ],
+  "lots": [
+    {
+      "id": 1,
+      "name": "Main Lot A",
+      "occupied": 75,
+      "available": 25,
+      "total": 100,
+      "lastUpdated": "2:45 PM"
+    },
+    {
+      "id": 2,
+      "name": "Main Lot B",
+      "occupied": 60,
+      "available": 40,
+      "total": 100,
+      "lastUpdated": "2:42 PM"
+    },
+    {
+      "id": 3,
+      "name": "Student Lot",
+      "occupied": 90,
+      "available": 10,
+      "total": 100,
+      "lastUpdated": "2:38 PM"
+    },
+    {
+      "id": 4,
+      "name": "Faculty Lot",
+      "occupied": 45,
+      "available": 55,
+      "total": 100,
+      "lastUpdated": "2:35 PM"
+    },
+    {
+      "id": 5,
+      "name": "Visitor Lot",
+      "occupied": 30,
+      "available": 70,
+      "total": 100,
+      "lastUpdated": "2:30 PM"
+    }
+  ]
+}

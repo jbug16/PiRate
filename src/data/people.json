@@ -1,0 +1,76 @@
+{
+  "people": [
+    {
+      "id": 1,
+      "name": "John Smith",
+      "email": "john.smith@email.com",
+      "phone": "(555) 123-4567",
+      "plates": ["ABC123", "XYZ789"],
+      "status": "Active",
+      "violations": 2
+    },
+    {
+      "id": 2,
+      "name": "Sarah Johnson",
+      "email": "sarah.j@email.com",
+      "phone": "(555) 234-5678",
+      "plates": ["DEF456"],
+      "status": "Active",
+      "violations": 0
+    },
+    {
+      "id": 3,
+      "name": "Mike Davis",
+      "email": "mike.davis@email.com",
+      "phone": "(555) 345-6789",
+      "plates": ["GHI789", "JKL012"],
+      "status": "Suspended",
+      "violations": 5
+    },
+    {
+      "id": 4,
+      "name": "Emily Wilson",
+      "email": "emily.w@email.com",
+      "phone": "(555) 456-7890",
+      "plates": ["MNO345"],
+      "status": "Active",
+      "violations": 1
+    },
+    {
+      "id": 5,
+      "name": "David Brown",
+      "email": "david.brown@email.com",
+      "phone": "(555) 567-8901",
+      "plates": ["PQR678"],
+      "status": "Active",
+      "violations": 0
+    },
+    {
+      "id": 6,
+      "name": "Lisa Garcia",
+      "email": "lisa.g@email.com",
+      "phone": "(555) 678-9012",
+      "plates": ["STU901", "VWX234"],
+      "status": "Active",
+      "violations": 3
+    },
+    {
+      "id": 7,
+      "name": "Tom Anderson",
+      "email": "tom.a@email.com",
+      "phone": "(555) 789-0123",
+      "plates": ["YZA567"],
+      "status": "Suspended",
+      "violations": 7
+    },
+    {
+      "id": 8,
+      "name": "Amy Taylor",
+      "email": "amy.taylor@email.com",
+      "phone": "(555) 890-1234",
+      "plates": ["BCD890"],
+      "status": "Active",
+      "violations": 1
+    }
+  ]
+}

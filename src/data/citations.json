@@ -1,0 +1,76 @@
+{
+  "citations": [
+    {
+      "id": 1,
+      "plate": "ABC123",
+      "violation": "No Permit",
+      "officer": "Jenna",
+      "date": "10/30/24",
+      "status": "Active",
+      "amount": "$25"
+    },
+    {
+      "id": 2,
+      "plate": "XYZ789",
+      "violation": "Expired Permit",
+      "officer": "Henry",
+      "date": "10/30/24",
+      "status": "Paid",
+      "amount": "$50"
+    },
+    {
+      "id": 3,
+      "plate": "DEF456",
+      "violation": "No Permit",
+      "officer": "Chris",
+      "date": "10/29/24",
+      "status": "Appealed",
+      "amount": "$25"
+    },
+    {
+      "id": 4,
+      "plate": "GHI789",
+      "violation": "Wrong Zone",
+      "officer": "Chase",
+      "date": "10/29/24",
+      "status": "Active",
+      "amount": "$35"
+    },
+    {
+      "id": 5,
+      "plate": "JKL012",
+      "violation": "No Permit",
+      "officer": "Valerie",
+      "date": "10/28/24",
+      "status": "Paid",
+      "amount": "$25"
+    },
+    {
+      "id": 6,
+      "plate": "MNO345",
+      "violation": "Expired Permit",
+      "officer": "Jenna",
+      "date": "10/28/24",
+      "status": "Active",
+      "amount": "$50"
+    },
+    {
+      "id": 7,
+      "plate": "PQR678",
+      "violation": "No Permit",
+      "officer": "Henry",
+      "date": "10/27/24",
+      "status": "Paid",
+      "amount": "$25"
+    },
+    {
+      "id": 8,
+      "plate": "STU901",
+      "violation": "Wrong Zone",
+      "officer": "Chris",
+      "date": "10/27/24",
+      "status": "Appealed",
+      "amount": "$35"
+    }
+  ]
+}

@@ -1,6 +1,8 @@
 import React from "react";
 
-const PlateTable = ({ plates }) => {
+const PlateTable = ({ plates, events }) => {
+    const wasTicketed = "No";
+
     return (
         <div className="bg-white shadow rounded-xl p-6">
             <table className="w-full text-left border-collapse">
@@ -9,7 +11,7 @@ const PlateTable = ({ plates }) => {
                     <th className="border-b p-3">Plate Number</th>
                     <th className="border-b p-3">Owner</th>
                     <th className="border-b p-3">Permit Status</th>
-                    <th className="border-b p-3">Ticket Count</th>
+                    <th className="border-b p-3">Ticket?</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -18,7 +20,7 @@ const PlateTable = ({ plates }) => {
                         <td className="p-3 border-b">{plate.number}</td>
                         <td className="p-3 border-b">{plate.owner}</td>
                         <td
-                            className={`p-3 border-b font-semibold ${
+                            className={`p-3 border-b ${
                                 plate.status === "Active"
                                     ? "text-green-600"
                                     : plate.status === "Expired"
@@ -28,7 +30,13 @@ const PlateTable = ({ plates }) => {
                         >
                             {plate.status}
                         </td>
-                        <td className="p-3 border-b">{plate.tickets}</td>
+                        <td className={`p-3 border-b ${
+                            wasTicketed === "No"
+                                ? "text-green-600"
+                                : plate.status === "Yes"
+                                    ? "text-red-600"
+                                    : "text-yellow-600"
+                        }`}>{wasTicketed}</td>
                     </tr>
                 ))}
                 </tbody>

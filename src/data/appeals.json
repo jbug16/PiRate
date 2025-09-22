@@ -1,0 +1,76 @@
+{
+  "appeals": [
+    {
+      "id": 1,
+      "citationId": "C-001",
+      "plate": "ABC123",
+      "violation": "No Permit",
+      "appellant": "John Smith",
+      "email": "john.smith@email.com",
+      "submittedDate": "10/30/24",
+      "status": "Pending Review",
+      "reason": "I had a valid permit but it fell off my windshield",
+      "amount": "$25"
+    },
+    {
+      "id": 2,
+      "citationId": "C-002",
+      "plate": "XYZ789",
+      "violation": "Expired Permit",
+      "appellant": "Sarah Johnson",
+      "email": "sarah.j@email.com",
+      "submittedDate": "10/29/24",
+      "status": "Under Review",
+      "reason": "My permit was renewed online but not yet reflected in the system",
+      "amount": "$50"
+    },
+    {
+      "id": 3,
+      "citationId": "C-003",
+      "plate": "DEF456",
+      "violation": "No Permit",
+      "appellant": "Mike Davis",
+      "email": "mike.davis@email.com",
+      "submittedDate": "10/28/24",
+      "status": "Approved",
+      "reason": "Valid permit was present but not visible due to tinted windows",
+      "amount": "$25"
+    },
+    {
+      "id": 4,
+      "citationId": "C-004",
+      "plate": "GHI789",
+      "violation": "Wrong Zone",
+      "appellant": "Emily Wilson",
+      "email": "emily.w@email.com",
+      "submittedDate": "10/27/24",
+      "status": "Denied",
+      "reason": "I was parked in the correct zone according to my permit",
+      "amount": "$35"
+    },
+    {
+      "id": 5,
+      "citationId": "C-005",
+      "plate": "JKL012",
+      "violation": "No Permit",
+      "appellant": "David Brown",
+      "email": "david.brown@email.com",
+      "submittedDate": "10/26/24",
+      "status": "Pending Review",
+      "reason": "Permit was purchased but not yet printed and displayed",
+      "amount": "$25"
+    },
+    {
+      "id": 6,
+      "citationId": "C-006",
+      "plate": "MNO345",
+      "violation": "Expired Permit",
+      "appellant": "Lisa Garcia",
+      "email": "lisa.g@email.com",
+      "submittedDate": "10/25/24",
+      "status": "Under Review",
+      "reason": "Permit was renewed before expiration but system shows expired",
+      "amount": "$50"
+    }
+  ]
+}

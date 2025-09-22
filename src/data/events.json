@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "plate_id": 1,
+    "type": "scan",
+    "timestamp": "2025-08-31T13:44:00Z",
+    "location": "Lot A",
+    "photo": "example1.webp"
+  },
+  {
+    "id": 2,
+    "plate_id": 1,
+    "type": "ticket",
+    "timestamp": "2025-09-01T14:12:00Z",
+    "location": "Lot A",
+    "photo": "example2.webp",
+    "reason": "Expired Permit",
+    "amount": 45
+  }
+]
